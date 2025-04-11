@@ -1,107 +1,53 @@
-💼 Job Tracker Application
-A full-stack web application to streamline job applications and recruiter postings.
-Built with MERN stack (MongoDB, Express.js, React.js, Node.js).
+The Job Tracker App is built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
+It allows recruiters to post job openings and manage applicants, while job seekers can explore listings and track their application status.
+
+**Key Features**
 
 
+User authentication and role-based access (Applicant or Recruiter)
+Recruiter dashboard to add, delete job posts
+Applicant dashboard to browse jobs and apply
+Track application status dynamically
+Clean UI with responsive design
+Protected routes for secure navigation
+Integration with MongoDB for data persistence
+
+**Technologies Used**
 
 
-🚀 Features
-User Authentication (Signup / Login)
+Frontend: React.js, Tailwind CSS, Framer Motion
+Backend: Node.js, Express.js
+Database: MongoDB, Mongoose
+Authentication: JWT (JSON Web Tokens)
+Hosting: render
 
-Role-based access (Recruiter & Applicant)
-
-Recruiters can post new jobs
-
-Applicants can browse and apply for jobs
-
-Application status tracking
-
-Responsive UI with smooth animations (Framer Motion)
-
-Protected routes and JWT-based authorization
-
-Error handling and loaders
-
-Optimized frontend and backend routing for production deployment
-
-🛠 Tech Stack
-Frontend:
-
-React.js (with React Router)
-
-Axios for API calls
-
-Framer Motion for animations
-
-TailwindCSS / CSS (if used)
+**Folder Structure**
 
 
+/frontend - React app for client-side
+/backend - Express server with APIs
+/models - Mongoose models for User, Job, Application
+/routes - Route handlers for user, job, and application APIs
+/controllers - Logic for API endpoints
+
+**How to Run Locally**
+
+Clone the repository
+Set up .env files for backend configuration
+Install dependencies for both frontend and backend
+Run backend server
+Run frontend React app
+
+**Future Improvements**
 
 
+Add file upload for resumes
+Implement notifications for application updates
+Add search and filter options for job listings
+Admin dashboard for system monitoring
 
-Backend:
-
-Node.js
-
-Express.js
-
-MongoDB with Mongoose
-
-JWT Authentication
-
-Cookie-parser for managing auth tokens
-
-CORS for API security
-
-dotenv for environment variables
+**Acknowledgements**
 
 
-
-
-
-
-📂 Folder Structure
-/backend
-    /controllers
-    /models
-    /routes
-    /middlewares
-    /utils
-/frontend
-    /components
-    /pages
-🔥 Deployment
-
-
-
-Frontend is built using npm run build
-
-Static files are served by Express when in production mode
-
-Backend auto-handles production vs development environment
-
-
-
-
-
-📝 Important Notes
-Recruiter users can add and manage job postings.
-
-Applicants can apply to jobs and track the application status.
-
-The "Apply" button updates instantly without needing a page reload.
-
-Proper error handling and redirections are in place.
-
-
-
-🤝 Contributing
-Pull requests are welcome!
-For major changes, please open an issue first to discuss what you would like to change.
-
-
-📄 License
-This project is licensed under the MIT License.
-
-
-✨ Made with Passion by Aradhay Jain
+Special thanks to Cuvette for the project idea and motivation behind this project.
+This project also incorporates best practices from modern MERN development.
