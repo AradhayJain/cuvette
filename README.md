@@ -2,6 +2,9 @@
 A full-stack web application to streamline job applications and recruiter postings.
 Built with MERN stack (MongoDB, Express.js, React.js, Node.js).
 
+
+
+
 🚀 Features
 User Authentication (Signup / Login)
 
@@ -32,6 +35,10 @@ Framer Motion for animations
 
 TailwindCSS / CSS (if used)
 
+
+
+
+
 Backend:
 
 Node.js
@@ -49,6 +56,10 @@ CORS for API security
 dotenv for environment variables
 
 
+
+
+
+
 📂 Folder Structure
 /backend
     /controllers
@@ -60,11 +71,18 @@ dotenv for environment variables
     /components
     /pages
 🔥 Deployment
+
+
+
 Frontend is built using npm run build
 
 Static files are served by Express when in production mode
 
 Backend auto-handles production vs development environment
+
+
+
+
 
 📝 Important Notes
 Recruiter users can add and manage job postings.
@@ -75,11 +93,15 @@ The "Apply" button updates instantly without needing a page reload.
 
 Proper error handling and redirections are in place.
 
+
+
 🤝 Contributing
 Pull requests are welcome!
 For major changes, please open an issue first to discuss what you would like to change.
 
+
 📄 License
 This project is licensed under the MIT License.
+
 
 ✨ Made with Passion by Aradhay Jain
